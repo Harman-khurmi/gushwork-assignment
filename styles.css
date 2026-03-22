@@ -63,13 +63,6 @@ ul {
 }
 
 /* ── Noise background ── */
-/* PLACEHOLDER: point url() to your noise texture asset */
-/* .noise-bg {
-  background-color: #f8f8fa;
-  background-image: url("/assets/noise-bg.png");
-  background-repeat: repeat;
-  background-size: auto;
-} */
 .noise-bg {
   background-color: #f8f8fa;
   position: relative;
@@ -1301,43 +1294,6 @@ ul {
 /* ================================================
    PORTFOLIO
    ================================================ */
-/* .portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 28px;
-}
-.portfolio-card {
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  border: 1px solid var(--color-border);
-  background: #fff;
-  transition: var(--transition-lg);
-}
-.portfolio-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-}
-.portfolio-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-}
-.portfolio-card-body {
-  padding: 20px 22px;
-}
-.portfolio-card-body h3 {
-  font-size: 0.95rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-.portfolio-card-body p {
-  font-size: 0.84rem;
-  color: var(--color-text-muted);
-  line-height: 1.65;
-  margin-bottom: 16px;
-} */
-/* replace with: */
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
